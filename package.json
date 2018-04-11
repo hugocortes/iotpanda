@@ -1,0 +1,32 @@
+{
+  "name": "iotpanda",
+  "version": "1.0.0",
+  "description": "Simple Cayenne connected Panda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugocortes/iotpanda.git"
+  },
+  "keywords": [
+    "cayenne",
+    "panda",
+    "iot",
+    "commaai"
+  ],
+  "author": "Hugo Cortes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugocortes/iotpanda/issues"
+  },
+  "homepage": "https://github.com/hugocortes/iotpanda#readme",
+  "dependencies": {
+    "@commaai/pandajs": "^0.3.0",
+    "cayennejs": "0.0.4",
+    "dotenv": "^5.0.1",
+    "lodash": "^4.17.5",
+    "winston": "^2.4.1"
+  }
+}
